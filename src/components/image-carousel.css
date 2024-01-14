@@ -1,0 +1,46 @@
+/* src/ReactImageCarousel.css */
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-preview-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.image-preview {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.image-preview.selected {
+  border-color: blue;
+}
+
+.main-carousel {
+  display: flex;
+
+}
+
+.main-image {
+  width: 300px;
+  height: 200px;
+}
+
+.arrow {  
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrow:hover {
+  color: blue;
+}
